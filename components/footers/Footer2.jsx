@@ -57,7 +57,7 @@ export default function Footer2() {
       </div>
       {/* Footer Text */}
       <div className="footer-text text-center mt-n10 pb-50">
-        Made with love for great people.
+        Made with ❤️ in Hamburg, Germany.
         <div className="small">
           Read <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>{" "}
           and <Link href="/privacy-policy">Privacy Policy</Link>.
