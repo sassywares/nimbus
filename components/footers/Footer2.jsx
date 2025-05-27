@@ -1,5 +1,7 @@
 "use client";
 import { socialLinks } from "@/data/footer";
+import { services4 } from "@/data/services";
+import Link from "next/link";
 import React from "react";
 
 export default function Footer2() {
@@ -17,24 +19,22 @@ export default function Footer2() {
         <div className="row">
           {/* Copyright */}
           <div className="col-lg-3 text-center text-lg-start mb-md-50">
-            © IB-Themes {new Date().getFullYear()}.
+            © Nimbus Studio {new Date().getFullYear()}.
           </div>
           {/* End Copyright */}
           {/* Social Links */}
           <div className="col-lg-6 fw-social-inline text-center mb-md-40">
-            {socialLinks.map((elm, i) => (
+            {services4.slice(0, 3).map((elm, i) => (
               <div key={i} className="fw-social-inline-item">
                 <a
-                  href={elm.href}
-                  target="_blank"
-                  rel="nofollow noopener"
+                  href="/#services"
                   className="link-hover-anim align-middle"
                   data-btn-animate="y"
                 >
                   <span className="btn-animate-y">
-                    <span className="btn-animate-y-1">{elm.text}</span>
+                    <span className="btn-animate-y-1">{elm.title}</span>
                     <span className="btn-animate-y-2" aria-hidden="true">
-                      {elm.text}
+                      {elm.title}
                     </span>
                   </span>
                 </a>
@@ -59,8 +59,8 @@ export default function Footer2() {
       <div className="footer-text text-center mt-n10 pb-50">
         Made with love for great people.
         <div className="small">
-          Read <a href="#">Terms &amp; Conditions</a> and{" "}
-          <a href="#">Privacy Policy</a>.
+          Read <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>{" "}
+          and <Link href="/privacy-policy">Privacy Policy</Link>.
         </div>
       </div>
       {/* End Footer Text */}

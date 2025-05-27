@@ -1,8 +1,10 @@
 "use client";
+
 import { testimonials3 } from "@/data/testimonials";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <div className="container">
@@ -10,6 +12,7 @@ export default function Testimonials() {
         <div className="col-lg-11">
           <div className="relative">
             <Swiper
+              loop
               spaceBetween={0}
               slidesPerView={1}
               modules={[Navigation]}

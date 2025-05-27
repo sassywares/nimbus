@@ -32,10 +32,11 @@ export default function Home8({
                 data-splitting="lines"
               >
                 <h2 className="section-title-inline-1">About Studio</h2>
-                Jane Garsia Studio is an independent full-service studio
-                creating beautiful digital experiences and products. We are an
-                award winning group specializing in branding, design and
-                engineering. Our mission is to make work meaningful.
+                Nimbus Studio is a German web design studio creating beautiful
+                digital experiences and innovative products. We are an award
+                winning team specializing in web design, branding and digital
+                solutions. Our mission is to make your online presence
+                meaningful.
               </div>
               {/* Accordion */}
               <Accordion />
@@ -104,7 +105,8 @@ export default function Home8({
                     <div className="row">
                       <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
                         <p className="section-descr mb-0">
-                          We believe that things should be useful yet beautiful.
+                          We believe that precision and aesthetics create
+                          exceptional digital experiences.
                         </p>
                       </div>
                     </div>
@@ -210,8 +212,8 @@ export default function Home8({
               <div className="row">
                 <div className="col-sm-6 col-md-7 text-center text-sm-start mb-xs-20">
                   <p className="section-descr mb-0 black">
-                    We use the power of design to solve complex problems and
-                    cultivate business solutions.
+                    We combine German precision with innovative design to create
+                    digital solutions that elevate your brand.
                   </p>
                 </div>
                 <div className="col-sm-6 col-md-5 text-center text-sm-end local-scroll">
@@ -347,84 +349,6 @@ export default function Home8({
           {/* End Portfolio Grid */}
         </div>
       </section>
-      <section
-        className={`page-section scrollSpysection  pb-0  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="blog"
-      >
-        <div className="container">
-          <div className="mb-100 mb-md-40">
-            <div className="row">
-              <div className="col-sm-6">
-                <h2 className="section-caption mb-0 mb-xs-10 black">
-                  Our Blog
-                </h2>
-              </div>
-              <div className="col-sm-6 local-scroll mt-n10 mb-n10 text-sm-end">
-                {onePage ? (
-                  <>
-                    <a
-                      href="#contact"
-                      className="link-hover-anim align-middle"
-                      data-link-animate="y"
-                    >
-                      <span className="link-strong link-strong-unhovered">
-                        All news{" "}
-                        <i
-                          className="icon-arrow-right2 size-14"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
-                        aria-hidden="true"
-                      >
-                        All news{" "}
-                        <i
-                          className="icon-arrow-right2 size-14"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    <Link
-                      href={`/modern-blog${dark ? "-dark" : ""}`}
-                      className="link-hover-anim align-middle"
-                      data-link-animate="y"
-                    >
-                      <span className="link-strong link-strong-unhovered">
-                        All news{" "}
-                        <i
-                          className="icon-arrow-right2 size-14"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
-                        aria-hidden="true"
-                      >
-                        All news{" "}
-                        <i
-                          className="icon-arrow-right2 size-14"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                    </Link>
-                  </>
-                )}
-              </div>
-            </div>
-            <hr
-              className={` ${dark ? "white opacity-1" : "black"}  mt-3 mb-0`}
-            />
-          </div>
-          <Blog />
-          {/* End Newsletter Form */}
-        </div>
-      </section>
       <div
         className={`page-section overflow-hidden  ${
           dark ? "light-content" : ""
@@ -454,7 +378,7 @@ export default function Home8({
               <div className="col-sm-6 local-scroll mt-n10 mb-n10 text-sm-end">
                 {/* Change the email address in the href attribute */}
                 <a
-                  href="mailto:ibthemes21@gmail.com"
+                  href="mailto:hello@sassywares.com"
                   className="link-hover-anim align-middle"
                   data-link-animate="y"
                 >
@@ -485,7 +409,7 @@ export default function Home8({
           <div className="row">
             <div className="col-11 col-sm-10">
               <h3 className="hs-title-5 font-alt overflow-hidden mb-100 mb-md-40">
-                <span className="d-block wow fadeRotateIn"> Let’s Work </span>
+                <span className="d-block wow fadeRotateIn"> Let's Work </span>
                 <span className="d-block text-end wow fadeRotateIn">
                   Together
                 </span>

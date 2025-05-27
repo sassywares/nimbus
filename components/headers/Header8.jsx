@@ -1,17 +1,9 @@
 "use client";
+
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Nav from "./components/Nav";
 
-const links = [
-  { href: "#home", text: "Home", className: "active", dataBtnAnimate: "y" },
-  { href: "#about", text: "About", dataBtnAnimate: "y" },
-  { href: "#services", text: "Services", dataBtnAnimate: "y" },
-  { href: "#portfolio", text: "Portfolio", dataBtnAnimate: "y" },
-  { href: "#blog", text: "Blog", dataBtnAnimate: "y" },
-  { href: "#contact", text: "Contact", dataBtnAnimate: "y" },
-];
 import Image from "next/image";
-import LanguageSelect from "./components/LanguageSelect";
 import Link from "next/link";
 
 export default function Header8({ links }) {
@@ -55,9 +47,6 @@ export default function Header8({ links }) {
           <li className="desktop-nav-display">
             <div className="vr" />
           </li>
-          {/* Languages */}
-          <LanguageSelect />
-          {/* End Languages */}
           <li>
             {links[0].href.includes("/") ? (
               <Link

@@ -66,12 +66,11 @@ export const modernMultipageDark = [
 ];
 
 export const modernOnepage = [
-  { href: "#home", text: "Home", className: "active", dataBtnAnimate: "y" },
-  { href: "#about", text: "About", dataBtnAnimate: "y" },
-  { href: "#services", text: "Services", dataBtnAnimate: "y" },
-  { href: "#portfolio", text: "Portfolio", dataBtnAnimate: "y" },
-  { href: "#blog", text: "Blog", dataBtnAnimate: "y" },
-  { href: "#contact", text: "Contact", dataBtnAnimate: "y" },
+  { href: "/#home", text: "Home", className: "active", dataBtnAnimate: "y" },
+  { href: "/#about", text: "About", dataBtnAnimate: "y" },
+  { href: "/#services", text: "Services", dataBtnAnimate: "y" },
+  { href: "/#portfolio", text: "Portfolio", dataBtnAnimate: "y" },
+  { href: "/#contact", text: "Contact", dataBtnAnimate: "y" },
 ];
 
 export const gradientMultipage = [

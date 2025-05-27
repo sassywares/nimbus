@@ -6,10 +6,9 @@ import Hero1 from "@/components/homes/home-8/heros/Hero1";
 import { modernOnepage } from "@/data/menu";
 
 export const metadata = {
-  title:
-    "Home 8 Main Demo Onepage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Nimbus studio",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "A creative web design studio based in Germany specializing in modern digital experiences.",
 };
 
 export default function Home8MainDemoOnepageDark() {

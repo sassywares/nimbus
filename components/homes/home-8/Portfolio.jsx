@@ -16,27 +16,27 @@ export default function Portfolio() {
                 <div className="row">
                   <div className="col-md-7 col-lg-8 mb-sm-30 mb-xs-20">
                     <div className="portfolio-3-image">
-                      <Link href={`/modern-portfolio-single/${elm.id}`}>
+                      <a>
                         <Image
                           src={elm.imageSrc}
                           width={1200}
                           height={782}
                           alt="Image Description"
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-5 col-lg-4 d-md-flex align-items-end">
                     <div className="text-center text-md-start">
                       <h3 className="portfolio-3-title font-alt mb-md-10">
-                        <Link href={`/modern-portfolio-single/${elm.id}`}>
+                        <a>
                           <span
                             className="wow charsAnimInLong"
                             data-splitting="chars"
                           >
                             <AnimatedText text={elm.title} />
                           </span>
-                        </Link>
+                        </a>
                       </h3>
                       <div className="portfolio-3-descr">{elm.categories}</div>
                     </div>
@@ -49,28 +49,28 @@ export default function Portfolio() {
                   <div className="col-md-5 col-lg-4 d-md-flex align-items-end">
                     <div className="text-center text-md-end">
                       <h3 className="portfolio-3-title font-alt mb-md-10">
-                        <Link href={`/modern-portfolio-single/${elm.id}`}>
+                        <a>
                           <span
                             className="wow charsAnimInLong"
                             data-splitting="chars"
                           >
                             <AnimatedText text={elm.title} />
                           </span>
-                        </Link>
+                        </a>
                       </h3>
                       <div className="portfolio-3-descr">{elm.categories}</div>
                     </div>
                   </div>
                   <div className="col-md-7 col-lg-8 mb-sm-30 mb-xs-20 order-first order-md-last">
                     <div className="portfolio-3-image">
-                      <Link href={`/modern-portfolio-single/${elm.id}`}>
+                      <a>
                         <Image
                           src={elm.imageSrc}
                           width={1200}
                           height={782}
                           alt="Image Description"
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>

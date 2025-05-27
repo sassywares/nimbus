@@ -1,51 +1,75 @@
 "use client";
+
+import { config } from "@/config";
+import Link from "next/link";
 import React from "react";
 
 export default function Contact() {
+  async function onFormSubmit(e) {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    if (!name) {
+      alert("Please enter your name");
+      return;
+    }
+
+    if (!email) {
+      alert("Please enter your email");
+      return;
+    }
+
+    if (!message) {
+      alert("Please enter your message");
+      return;
+    }
+
+    alert(
+      "Thank you for reaching out, a member of our team will get back to you soon."
+    );
+
+    try {
+      await fetch(
+        `https://api.sassywares.com/contact?referrerId=${config.id}&formTypeId=${config.formTypeIds.contactForm}`,
+        {
+          body: JSON.stringify({
+            name,
+            email,
+            message,
+          }),
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   return (
     <>
       <div className="row">
         <div className="col-md-4 mb-sm-60">
           <div className="section-descr black">
             <p>
-              We’re open to talk to good people. Just say hello and we’ll start
-              a productive cooperation.
+              We bring German precision to every digital project. Contact us
+              today to discuss how we can elevate your online presence.
             </p>
-            <p>
-              {/* Change the phone number inside and link tag and href attribute */}
-              Call us:
-              <a href="tel:+18376528800" className="text-link">
-                +1 837 652 8800
-              </a>
-              <br />
-              {/* Change the email address inside and link tag and href attribute */}
-              Say hi:
-              <a href="mailto:ibthemes21@gmail.com" className="text-link">
-                ibthemes21@gmail.com
-              </a>
-            </p>
-            <div>
-              <a href="#" className="hs-social-link d-inline-flex me-1">
-                <span className="visually-hidden">Facebook</span>
-                <i className="fa-facebook-f" />
-              </a>
-              <a href="#" className="hs-social-link d-inline-flex me-1">
-                <span className="visually-hidden">Twitter</span>
-                <i className="fa-twitter" />
-              </a>
-              <a href="#" className="hs-social-link d-inline-flex">
-                <span className="visually-hidden">Instagram</span>
-                <i className="fa-instagram" />
-              </a>
-            </div>
           </div>
         </div>
         <div className="col-md-7 offset-md-1">
           {/* Contact Form */}
           <form
-            onSubmit={(e) => e.preventDefault()}
-            className="form contact-form"
             id="contact_form"
+            onSubmit={onFormSubmit}
+            className="form contact-form"
           >
             <div className="row mb-30">
               <div className="col-lg-6 mb-md-30">
@@ -118,10 +142,12 @@ export default function Contact() {
               <div className="col-xs-8 col-lg-6 d-flex align-items-center">
                 {/* Inform Tip */}
                 <div className="form-tip">
-                  <i className="icon-info size-16" />
-                  All the fields are required. By sending the form you agree to
-                  the <a href="#">Terms &amp; Conditions</a> and{" "}
-                  <a href="#">Privacy Policy</a>.
+                  <i className="icon-info size-16" /> All the fields are
+                  required. By sending the form you agree to the{" "}
+                  <Link href="/terms-and-conditions">
+                    Terms &amp; Conditions
+                  </Link>{" "}
+                  and <Link href="/privacy-policy">Privacy Policy</Link>.
                 </div>
               </div>
             </div>

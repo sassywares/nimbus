@@ -54,24 +54,24 @@ export const faqDataMain = [
 export const faqs3 = [
   {
     question: "Our Story",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            condimentum, mauris a bibendum cursus, risus quam venenatis ipsum,
-            in facilisis tellus lacus ac augue. Fusce placerat condimentum
-            luctus. Pellentesque venenatis lacus eu ex sollicitudin maximus.
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Vestibulum rhoncus eros vitae enim lobortis
-            cursus. Suspendisse potenti. Ut sed tortor ut dolor consequat congue
-            a lacinia ante. Phasellus vel urna eu lacus luctus luctus vitae quis`,
+    answer: `Founded in 2019 in Germany, Nimbus Studio began as a small team of
+            passionate web designers with a vision to create digital experiences
+            that truly stand out. Over the years, we've grown into a recognized
+            studio working with clients across Europe. Our German design heritage
+            emphasizes precision, functionality, and aesthetics - principles that
+            guide every project we undertake. Today, we're proud to blend traditional
+            German craftsmanship with cutting-edge digital innovation in every
+            project we deliver.`,
   },
   {
     question: "Our Mission",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            condimentum, mauris a bibendum cursus, risus quam venenatis ipsum,
-            in facilisis tellus lacus ac augue. Fusce placerat condimentum
-            luctus. Pellentesque venenatis lacus eu ex sollicitudin maximus.
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Vestibulum rhoncus eros vitae enim lobortis
-            cursus. Suspendisse potenti. Ut sed tortor ut dolor consequat congue
-            a lacinia ante. Phasellus vel urna eu lacus luctus luctus vitae quis`,
+    answer: `At Nimbus Studio, our mission is to transform businesses through
+            exceptional digital design. We believe that successful websites balance
+            beautiful aesthetics with practical functionality. We're committed to
+            creating web experiences that not only look impressive but also deliver
+            measurable results for our clients. We approach each project with meticulous
+            attention to detail, ensuring that every aspect of the user experience
+            is carefully considered. Our goal is to be Germany's most innovative web
+            design studio, setting new standards for digital excellence.`,
   },
 ];

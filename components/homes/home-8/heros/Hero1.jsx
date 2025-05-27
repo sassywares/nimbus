@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export default function Hero1() {
   return (
     <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120 ">
@@ -16,7 +17,7 @@ export default function Hero1() {
               height={208}
               alt="Image Description"
             />{" "}
-            Jane Garsia
+            Nimbus
           </span>
           <span
             className="d-block wow fadeRotateIn"
@@ -48,12 +49,12 @@ export default function Hero1() {
           data-wow-delay="0.6s"
           data-wow-offset={0}
         >
-          Specialized in Branding, Web Design and Photography
+          Specialized in Web Design, Branding and Digital Solutions
         </h2>
         <p className="hs-paragraph-2 wow clipRightIn" data-wow-delay="0.8s">
-          We are a full-service creative studio creating beautiful digital
-          experiences and products. Our mission is to make work process
-          meaningful.
+          We are a German web design studio creating beautiful digital
+          experiences and innovative products. Our mission is to make your
+          online presence meaningful.
         </p>
 
         <div
@@ -82,22 +83,6 @@ export default function Hero1() {
         </div>
       </div>
       {/* End Scroll Down */}
-      {/* Social Media Links */}
-      <div className="hs-social left wow fadeInUp" data-wow-offset={0}>
-        <a href="#" className="hs-social-link">
-          <span className="visually-hidden">Instagram</span>
-          <i className="fa-instagram" />
-        </a>
-        <a href="#" className="hs-social-link">
-          <span className="visually-hidden">Twitter</span>
-          <i className="fa-twitter" />
-        </a>
-        <a href="#" className="hs-social-link">
-          <span className="visually-hidden">Facebook</span>
-          <i className="fa-facebook-f" />
-        </a>
-      </div>
-      {/* End Social Media Links */}
     </div>
   );
 }
