@@ -85,8 +85,7 @@ export default function PrivacyPolicyPage() {
                   </li>
                   <li>
                     <p>
-                      <strong>Country</strong> refers to: Arkansas, United
-                      States
+                      <strong>Country</strong> refers to: Hamburg, Germany
                     </p>
                   </li>
                   <li>
