@@ -15,14 +15,14 @@ export default function Header8({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <a href="/#top" className="logo">
           <Image
-            src="/assets/images/demo-modern/logo-dark.svg"
+            src="/assets/images/logo.png"
             alt="Your Company Logo"
             width={84}
             height={33}
             className="light-mode-logo"
           />
           <Image
-            src="/assets/images/demo-modern/logo-white.svg"
+            src="/assets/images/logo.png"
             alt="Your Company Logo"
             width={84}
             height={33}

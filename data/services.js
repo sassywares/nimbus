@@ -129,31 +129,31 @@ export const services3 = [
 export const services4 = [
   {
     title: "Web Design",
-    imageSrc: "/assets/images/demo-modern/services/1.jpg",
+    imageSrc: "/assets/images/services/web-design.jpg",
     alt: "Web Design Services",
     align: "text-center",
   },
   {
     title: "UI/UX Design",
-    imageSrc: "/assets/images/demo-modern/services/2.jpg",
+    imageSrc: "/assets/images/services/ui-ux-design.jpg",
     alt: "UI/UX Design Services",
     align: "text-end",
   },
   {
     title: "Digital Branding",
-    imageSrc: "/assets/images/demo-modern/services/3.jpg",
+    imageSrc: "/assets/images/services/digital-branding.jpg",
     alt: "Digital Branding Services",
     align: "text-start",
   },
   {
     title: "Development",
-    imageSrc: "/assets/images/demo-modern/services/4.jpg",
+    imageSrc: "/assets/images/services/development.jpg",
     alt: "Development Services",
     align: "text-end",
   },
   {
     title: "E-Commerce",
-    imageSrc: "/assets/images/demo-modern/services/5.jpg",
+    imageSrc: "/assets/images/services/e-commerce.jpg",
     alt: "E-Commerce Services",
     align: "text-center",
   },

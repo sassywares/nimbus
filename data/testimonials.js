@@ -57,37 +57,37 @@ export const testimonials3 = [
     text: "Nimbus Studio transformed our restaurant website with a sleek, functional design that perfectly captures our brand. Their attention to detail is exceptional.",
     author: "Klaus Weber",
     role: "Restaurant Owner",
-    imgSrc: "/assets/images/demo-gradient/user-1.jpg",
+    imgSrc: "/assets/images/testimonials/klaus-weber.jpg",
   },
   {
     text: "Working with this German design team was a pleasure. They combined precision and creativity to deliver an e-commerce site that exceeded our expectations.",
     author: "Sabine Müller",
     role: "E-Commerce Director",
-    imgSrc: "/assets/images/demo-gradient/user-2.jpg",
+    imgSrc: "/assets/images/testimonials/sabine-muller.jpg",
   },
   {
     text: "The redesign of our tech company's website was flawless. Their German engineering approach to web design delivered both functionality and aesthetics.",
     author: "Markus Schmidt",
     role: "Tech Startup Founder",
-    imgSrc: "/assets/images/demo-gradient/user-3.jpg",
+    imgSrc: "/assets/images/testimonials/markus-schmidt.jpg",
   },
   {
     text: "Nimbus Studio understands digital branding like no other. They created a cohesive online identity that has significantly improved our market presence.",
     author: "Hannah Fischer",
     role: "Marketing Manager",
-    imgSrc: "/assets/images/demo-gradient/user-1.jpg",
+    imgSrc: "/assets/images/testimonials/hannah-fischer.jpg",
   },
   {
     text: "Their methodical approach to UX design resulted in a 40% increase in our conversion rate. German precision at its finest in the digital realm.",
     author: "Lukas Becker",
     role: "Digital Strategist",
-    imgSrc: "/assets/images/demo-gradient/user-2.jpg",
+    imgSrc: "/assets/images/testimonials/lukas-becker.jpg",
   },
   {
     text: "As a fashion brand, we needed a website that was both beautiful and functional. Nimbus delivered exactly that, with meticulous attention to every detail.",
     author: "Julia Wagner",
     role: "Fashion Brand CEO",
-    imgSrc: "/assets/images/demo-gradient/user-3.jpg",
+    imgSrc: "/assets/images/testimonials/julia-wagner.jpg",
   },
 ];
 
