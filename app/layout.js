@@ -12,6 +12,7 @@ import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="appear-animate body">{children}</body>
+      <GoogleAnalytics gaId="G-T1BCM140RS" />
     </html>
   );
 }
