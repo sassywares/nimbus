@@ -55,15 +55,33 @@ export default function Footer2() {
           </div>
         </div>
       </div>
-      {/* Footer Text */}
-      <div className="footer-text text-center mt-n10 pb-50">
-        Made with ❤️ in Hamburg, Germany.
-        <div className="small">
-          Read <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>{" "}
-          and <Link href="/privacy-policy">Privacy Policy</Link>.
+      <div className="row">
+        <div className="col-md-6">
+          {/* Footer Text */}
+          <div className="footer-text text-center text-md-start mt-n10 pb-50">
+            Made with ❤️ in Hamburg, Germany.
+            <div className="small">
+              Read{" "}
+              <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>{" "}
+              and <Link href="/privacy-policy">Privacy Policy</Link>.
+            </div>
+          </div>
+          {/* End Footer Text */}
+        </div>
+        <div className="col-md-6">
+          <div className="d-flex gap-2 align-items-center justify-content-center justify-content-md-end footer-text mb-3">
+            Site by
+            <a href="https://sassywares.com" target="_blank" rel="noopener">
+              <img
+                src="https://storage.sassywares.com/badge.png"
+                alt="sassywares creative web design development agency"
+                width="150"
+                className="mt-2"
+              />
+            </a>
+          </div>
         </div>
       </div>
-      {/* End Footer Text */}
     </div>
   );
 }
